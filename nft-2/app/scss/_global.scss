@@ -25,13 +25,12 @@ body {
     line-height: 28px;
     font-weight: 400;
     color: $txt-color;
-    background-color: $bgr-body;
+    background-color: black;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    width: 5em;
     transform: scale(1);
 }
 
@@ -484,5 +483,9 @@ input[type="color"]::placeholder {
     position: relative;
     padding: 80px 0;
     margin-bottom: 0 !important;
+}
+
+.logo{
+    width: 5em;
 }
 

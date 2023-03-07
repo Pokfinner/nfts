@@ -457,7 +457,7 @@
     };
 
         var loadmore = function () {
-        $(".fl-item").slice(0, 16).show();
+        $(".fl-item").slice(0 , 8).show();
 
         $(".loadmore").on("click", function(e){
           e.preventDefault();
