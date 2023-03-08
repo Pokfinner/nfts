@@ -22,16 +22,16 @@
     padding: 40px 20px;
 }
 .main-content {
-    padding-left: 95px;
+    padding-left: 0px;
 }
 .header-form {
     width: 300px;
     margin-left: 35px;
     padding-left: 35px;
 }
-.banner-area {
+/* .banner-area {
     padding: 235px 0 130px;
-}
+} */
 .features-img-wrap li:nth-child(1),
 .features-img-wrap li:nth-child(4) {
     width: 49.5%;
