@@ -886,7 +886,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("./../../assets/images/backgroup/bckg.jpg") center center no-repeat;
+  background: url("./../../assets/images/backgroup/bckg.jpg.png") center center no-repeat;
   background-size: cover;
 }
 .main .page-title .slider-st2 {
