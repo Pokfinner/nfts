@@ -2535,7 +2535,7 @@ select {
 
 .bg-jacarta-800 {
     --tw-bg-opacity: 1;
-    background-color: rgba(16, 20, 54, var(--tw-bg-opacity))
+    background-color: #F2EBD5
 }
 
 .bg-jacarta-600 {
@@ -2870,7 +2870,7 @@ select {
 
 .py-24 {
     padding-bottom: 6rem;
-    padding-top: 6rem
+    padding-top: 6rem;
 }
 
 .py-20 {
@@ -4765,7 +4765,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .dark .dark\:bg-jacarta-900 {
     --tw-bg-opacity: 1;
-    background-color: rgba(13, 16, 45, var(--tw-bg-opacity))
+    background-color: #10454F
 }
 
 .dark .dark\:bg-white\/\[\.15\] {
@@ -4774,7 +4774,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .dark .dark\:bg-jacarta-800 {
     --tw-bg-opacity: 1;
-    background-color: rgba(16, 20, 54, var(--tw-bg-opacity))
+    background-color: #10454F
 }
 
 .dark .dark\:bg-jacarta-600 {
@@ -4784,12 +4784,12 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .dark .dark\:bg-jacarta-700 {
     --tw-bg-opacity: 1;
-    background-color: rgba(19, 23, 64, var(--tw-bg-opacity))
+    background-color: #506266   
 }
 
 .dark .dark\:bg-accent {
     --tw-bg-opacity: 1;
-    background-color: rgba(131, 88, 255, var(--tw-bg-opacity))
+    background-color: red
 }
 
 .dark .dark\:to-\[\#101436_33\%\] {
