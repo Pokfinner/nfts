@@ -712,3 +712,7 @@
 [data-overlay="9"]::before {
 	opacity: 0.9;
 }
+
+#team{
+	background-color: black;
+}

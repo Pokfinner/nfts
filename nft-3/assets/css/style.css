@@ -375,6 +375,7 @@ label {
 .main-content {
 	padding-left: 0px;
 	position: relative;
+    padding-bottom: 0 !important;
 }
 .custom-container {
     max-width: 1330px;
@@ -1361,7 +1362,7 @@ label {
     background: url(../img/bg/ooorganize.svg) repeat 0 0  ;
     background-size: auto;
     background-color: black;
-    animation: bg-scrolling-reverse 1s infinite;
+    animation: bg-scrolling-reverse 5s infinite;
     animation-timing-function: linear;
 }
 @keyframes bg-scrolling-reverse {
@@ -2076,7 +2077,7 @@ label {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(180deg, #ea8034 0%, rgb(140 80 40) 100%);
+	background: linear-gradient(180deg, #200d00 0%, rgb(32, 13, 0) 100%);
 	z-index: -1;
 }
 .week-features-area {
@@ -2251,7 +2252,7 @@ label {
 /* 11. Explore-area */
 .explore-products-area {
 	padding: 50px 0 50px;
-    background-color: rgb(140 80 40);
+    background-color: rgb(0,0,0);
 }
 .filter-btn {
     position: relative;
