@@ -1355,14 +1355,30 @@ label {
     display: none;
 }
 
+
 /* 7. Banner */
 .banner-bg {
-    background-image: url(../img/bg/breadcrumb_bg.png);
-    background-size: cover;
-    background-position: top center;
+    background: url(../img/bg/ooorganize.svg) repeat 0 0  ;
+    background-size: auto;
+    background-color: black;
+    animation: bg-scrolling-reverse 1s infinite;
+    animation-timing-function: linear;
 }
+@keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 100px 100px;
+    }
+  }
+
+  @keyframes bg-scrolling {
+    0% {
+      background-position: 100px 100px;
+    }
+  }
+
+  
 .banner-area {
-    padding: 500px 0 145px;
+    padding: 300px 0 145px;
 }
 .banner-content {
     margin-left: 90px;
@@ -4348,4 +4364,8 @@ label {
 }
 body{
     overflow-x: hidden;
+}
+
+.coin-img{
+    back
 }
