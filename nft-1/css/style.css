@@ -2437,7 +2437,7 @@ select {
 
 .bg-accent {
     --tw-bg-opacity: 1;
-    background-color: rgba(131, 88, 255, var(--tw-bg-opacity))
+    background-color: #5ed8e0
 }
 
 .bg-jacarta-100 {
@@ -3265,7 +3265,7 @@ select {
 
 .text-accent {
     --tw-text-opacity: 1;
-    color: rgba(131, 88, 255, var(--tw-text-opacity))
+    color: #5ed8e0
 }
 
 .text-jacarta-400 {
@@ -3384,7 +3384,7 @@ select {
 }
 
 .shadow-accent-volume {
-    --tw-shadow: 5px 5px 10px rgba(108, 106, 213, .25), inset 2px 2px 6px #a78df0, inset -5px -5px 10px #6336e4;
+    --tw-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25), inset 2px 2px 6px #49a2a8, inset -5px -5px 10px #0f4a4d;
     --tw-shadow-colored: 5px 5px 10px var(--tw-shadow-color), inset 2px 2px 6px var(--tw-shadow-color), inset -5px -5px 10px var(--tw-shadow-color)
 }
 
@@ -3821,7 +3821,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 .dark .js-page-header--is-sticky,
 .js-page-header--is-sticky.page-header--transparent {
-    background-color: rgba(19, 23, 64, .5)
+    background-color: rgb(19 59 64 / 50%)
 }
 
 .nav-link.active {
@@ -4525,7 +4525,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .hover\:bg-accent-dark:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(116, 68, 255, var(--tw-bg-opacity))
+    background-color: #0c7c86
 }
 
 .hover\:bg-jacarta-100:hover {
@@ -4784,7 +4784,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .dark .dark\:bg-jacarta-700 {
     --tw-bg-opacity: 1;
-    background-color: #506266   
+    background-color: #0e262b 
 }
 
 .dark .dark\:bg-accent {
@@ -6204,4 +6204,10 @@ html[dir=rtl] .hover\:translate-x-1:hover {
     padding: 5px 9px;
     position: relative;
     z-index: 1
+}
+
+.img-bit{
+    margin: auto;
+    display: flex;
+    width: 500px;
 }
