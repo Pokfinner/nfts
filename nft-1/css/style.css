@@ -2379,6 +2379,10 @@ select {
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity))
 }
+.bg-white-footer {
+    --tw-bg-opacity: 1;
+    background-color: #b2edb7
+}
 
 .bg-green {
     --tw-bg-opacity: 1;
@@ -2437,7 +2441,13 @@ select {
 
 .bg-accent {
     --tw-bg-opacity: 1;
-    background-color: #5ed8e0
+    background-color: #8dec96;
+    color: rgb(14, 9, 61);
+}
+.bg-accent2 {
+    --tw-bg-opacity: 1;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 .bg-jacarta-100 {
@@ -3473,7 +3483,7 @@ select {
 }
 
 .backdrop-blur {
-    --tw-backdrop-blur: blur(8px)
+    --tw-backdrop-blur: blur(40px)
 }
 
 .backdrop-blur,
@@ -3816,7 +3826,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .js-page-header--is-sticky {
-    background-color: hsla(0, 0%, 100%, .5)
+    background-color: hsl(125deg 62% 63% / 50%);
 }
 
 .dark .js-page-header--is-sticky,
@@ -4515,7 +4525,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .hover\:bg-accent:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(131, 88, 255, var(--tw-bg-opacity))
+    background-color: black
 }
 
 .hover\:bg-jacarta-50:hover {
@@ -4525,12 +4535,17 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .hover\:bg-accent-dark:hover {
     --tw-bg-opacity: 1;
-    background-color: #0c7c86
+    background-color: #64c474
+
+}
+.hover\:bg-accent-dark2:hover {
+    --tw-bg-opacity: 1;
+    background-color: #4b96a8
 }
 
 .hover\:bg-jacarta-100:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(231, 232, 236, var(--tw-bg-opacity))
+    background-color: rgb(202, 202, 202)
 }
 
 .hover\:bg-jacarta-600:hover {
@@ -4549,7 +4564,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .hover\:text-accent:hover {
     --tw-text-opacity: 1;
-    color: rgba(131, 88, 255, var(--tw-text-opacity))
+    color: rgb(245, 245, 245)
 }
 
 .hover\:text-white:hover {
@@ -4595,12 +4610,12 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 }
 
 .hover\:shadow-accent-volume:hover {
-    --tw-shadow: 5px 5px 10px rgba(108, 106, 213, .25), inset 2px 2px 6px #a78df0, inset -5px -5px 10px #6336e4;
+    --tw-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25), inset 2px 2px 6px #49a2a8, inset -5px -5px 10px #0f4a4d;
     --tw-shadow-colored: 5px 5px 10px var(--tw-shadow-color), inset 2px 2px 6px var(--tw-shadow-color), inset -5px -5px 10px var(--tw-shadow-color)
 }
 
 .hover\:shadow-\[0_16px_24px_-8px_rgba\(131\2c 88\2c 255\2c \.3\)\]:hover {
-    --tw-shadow: 0 16px 24px -8px rgba(131, 88, 255, .3);
+    --tw-shadow: 0 16px 24px -8px rgba(243, 243, 243, 0.3);
     --tw-shadow-colored: 0 16px 24px -8px var(--tw-shadow-color)
 }
 
@@ -4630,27 +4645,23 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 }
 
 .hover\:ring-accent\/10:hover {
-    --tw-ring-color: rgba(131, 88, 255, .1)
+    --tw-ring-color: black;
 }
 
 .checked\:hover\:bg-accent:hover:checked {
     --tw-bg-opacity: 1;
-    background-color: rgba(131, 88, 255, var(--tw-bg-opacity))
+    background-color: black;
 }
 
 .focus\:border-transparent:focus {
     border-color: transparent
 }
 
-.focus\:bg-accent:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(131, 88, 255, var(--tw-bg-opacity))
-}
 
-.focus\:text-accent:focus {
+/* .focus\:text-accent:focus {
     --tw-text-opacity: 1;
-    color: rgba(131, 88, 255, var(--tw-text-opacity))
-}
+    color: white
+} */
 
 .focus\:ring-inset:focus {
     --tw-ring-inset: inset
@@ -4689,7 +4700,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 }
 
 .group:hover .group-hover\:fill-accent {
-    fill: #8358ff
+    fill: #339282
 }
 
 .group:hover .group-hover\:text-accent {
@@ -4710,9 +4721,9 @@ html[dir=rtl] .hover\:translate-x-1:hover {
     visibility: visible
 }
 
-.group:focus .group-focus\:fill-white {
-    fill: #fff
-}
+/* .group:focus .group-focus\:fill-white {
+    fill: rgb(114, 114, 114)
+} */
 
 .group-dropdown:hover .group-dropdown-hover\:opacity-100 {
     opacity: 1
@@ -4765,16 +4776,16 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .dark .dark\:bg-jacarta-900 {
     --tw-bg-opacity: 1;
-    background-color: #10454F
+    background-color: #02404d
 }
 
 .dark .dark\:bg-white\/\[\.15\] {
-    background-color: hsla(0, 0%, 100%, .15)
+    background-color: hsla(192, 64%, 57%, 0.377)
 }
 
 .dark .dark\:bg-jacarta-800 {
     --tw-bg-opacity: 1;
-    background-color: #10454F
+    background-color: #02404d
 }
 
 .dark .dark\:bg-jacarta-600 {
@@ -4907,7 +4918,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .dark .dark\:hover\:bg-accent:hover {
     --tw-bg-opacity: 1;
-    background-color: rgba(131, 88, 255, var(--tw-bg-opacity))
+    background-color: rgb(8, 120, 122)
 }
 
 .dark .dark\:hover\:bg-jacarta-600:hover {
@@ -4926,7 +4937,7 @@ html[dir=rtl] .hover\:translate-x-1:hover {
 
 .dark .dark\:hover\:text-accent:hover {
     --tw-text-opacity: 1;
-    color: rgba(131, 88, 255, var(--tw-text-opacity))
+    color: rgb(56, 112, 138)
 }
 
 .dark .dark\:hover\:text-white:hover {
@@ -4934,10 +4945,10 @@ html[dir=rtl] .hover\:translate-x-1:hover {
     color: rgba(255, 255, 255, var(--tw-text-opacity))
 }
 
-.dark .dark\:focus\:text-accent:focus {
+/* .dark .dark\:focus\:text-accent:focus {
     --tw-text-opacity: 1;
     color: rgba(131, 88, 255, var(--tw-text-opacity))
-}
+} */
 
 .dark .group:hover .dark\:group-hover\:fill-white {
     fill: #fff
